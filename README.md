@@ -62,19 +62,15 @@ const game = {
     this.score++
   }
 }
-```
 
-**don't do**
-```js
+
+// don't do
 const game = {
   score: 3,
   increase: () => this.score++
 }
-```
 
-**Better refactor**
-
-```js
+// Better refactor
 const game = {
   score: 3,
   increase() {
@@ -83,7 +79,7 @@ const game = {
 }
 ```
 
-- When you need `arguments`
+- When you need `arguments` keyword
 
 ## Resources
 
