@@ -18,7 +18,7 @@ While arrow funcitons have major support in most modern browsers, some olders br
 ![can i use arrow funcitons](images/caniusearrowfunctions.png)
 
 ## Life Without Arrow Functions
-
+![Old Tech](https://media.giphy.com/media/bZQvimlS7kuGc/giphy.gif)
 ```js
 
 // Funtion Decleration
@@ -36,6 +36,7 @@ const bar = function(word) {
 ```
 
 ## What is an Arrow Function
+![green arrow functions](https://media.giphy.com/media/EMm31ROmLJtEk/giphy.gif)
 
 > An **arrow function expression** is a syntactically compact alternative to a regular function expression, although without its own bindings to the `this`, `arguments`, `super`, or `new.target` keywords. Arrow function expressions are ill suited as methods, and they cannot be used as constructors.
 >
@@ -46,11 +47,15 @@ const bar = function(word) {
 
 ## Benifits of Arrow functions
 
+![That is awesome](https://media.giphy.com/media/Qh6NZWsFx1G1O/giphy.gif)
+
 - concise syntax
 - implicit returns
 - no rebinding of `this`
 
 ## When not to use arrow functions
+
+![When not to use](https://media.giphy.com/media/ka58AlHmghpQ4uUmTl/giphy.gif)
 
 There are a few cases where you do not want to just use arrow functions without some significant rework.
 
