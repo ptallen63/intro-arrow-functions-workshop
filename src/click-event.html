@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="http://classy.qa.bankrate.com/0.9.24/css/classy.css" />
+  <title>Arrow functions</title>
+</head>
+<body>
+  <button class="button --primary">Click Me</button>
+
+
+  <script>
+
+    const button = document.querySelector('.button');
+    button.addEventListener('click', function() {
+      console.log(this.innerText)
+    })
+
+
+  </script>
+</body>
+</html>
