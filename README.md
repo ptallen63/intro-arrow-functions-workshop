@@ -13,7 +13,7 @@ Red Ventures Micro Workshop
 
 ## Safe Harbor
 
-While arrow funcitons have major support in most modern browsers, some olders browser do not support the feature. Therefore it is up to you to make sure the browsers your support are address. You can consult [Can I use](https://caniuse.com/#feat=arrow-functions) for a full list of supported browsers for this feature.
+While arrow funcitons have major support in most modern browsers, some olders browser do not support the feature. Therefore it is up to you to make sure the browsers you support are addressed. You can consult [Can I use](https://caniuse.com/#feat=arrow-functions) for a full list of supported browsers for this feature.
 
 ![can i use arrow funcitons](images/caniusearrowfunctions.png)
 
