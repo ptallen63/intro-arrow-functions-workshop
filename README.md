@@ -1,6 +1,6 @@
 # Javascript Arrow Functions
 
-Redventure Micro Workshop
+Red Ventures Micro Workshop
 
 - [Javascript Arrow Functions](#Javascript-Arrow-Functions)
   - [Safe Harbor](#Safe-Harbor)
@@ -54,6 +54,35 @@ There are a few cases where you do not want to just use arrow functions without 
 
 - Click Handlers
 - Object Methods
+
+```js
+const game = {
+  score: 3,
+  increase: function() {
+    this.score++
+  }
+}
+```
+
+**don't do**
+```js
+const game = {
+  score: 3,
+  increase: () => this.score++
+}
+```
+
+**Better refactor**
+
+```js
+const game = {
+  score: 3,
+  increase() {
+    this.score++
+  }
+}
+```
+
 - When you need `arguments`
 
 ## Resources
