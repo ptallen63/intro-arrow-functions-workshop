@@ -6,16 +6,16 @@ Red Ventures Micro Workshop
   - [Safe Harbor](#Safe-Harbor)
   - [Life Without Arrow Functions](#Life-Without-Arrow-Functions)
   - [What is an Arrow Function](#What-is-an-Arrow-Function)
-  - [Benifits of Arrow functions](#Benifits-of-Arrow-functions)
-  - [When not to use arrow functions](#When-not-to-use-arrow-functions)
+  - [Benifits of Arrow Functions](#Benifits-of-Arrow-Functions)
+  - [When Not to Use Arrow Functions](#When-Not-to-Use-Arrow-Functions)
   - [Resources](#Resources)
 
 
 ## Safe Harbor
 
-While arrow funcitons have major support in most modern browsers, some olders browser do not support the feature. Therefore it is up to you to make sure the browsers you support are addressed. You can consult [Can I use](https://caniuse.com/#feat=arrow-functions) for a full list of supported browsers for this feature.
+While arrow functions have major support in most modern browsers, some older browser do not support the feature. Therefore it is up to you to make sure the browsers you support are addressed. You can consult [can I use](https://caniuse.com/#feat=arrow-functions) for a full list of supported browsers for this feature.
 
-![can i use arrow funcitons](images/caniusearrowfunctions.png)
+![can i use arrow functions](images/caniusearrowfunctions.png)
 
 ## Life Without Arrow Functions
 ![Old Tech](https://media.giphy.com/media/bZQvimlS7kuGc/giphy.gif)
@@ -45,7 +45,7 @@ const bar = function(word) {
 - **An arrow function is not just _syntactic sugar_ for js functions**
 - Arrow functions are always annoymous functions
 
-## Benifits of Arrow functions
+## Benifits of Arrow Functions
 
 ![That is awesome](https://media.giphy.com/media/Qh6NZWsFx1G1O/giphy.gif)
 
@@ -53,7 +53,7 @@ const bar = function(word) {
 - implicit returns
 - no rebinding of `this`
 
-## When not to use arrow functions
+## When Not to Use Arrow Functions
 
 ![When not to use](https://media.giphy.com/media/ka58AlHmghpQ4uUmTl/giphy.gif)
 
