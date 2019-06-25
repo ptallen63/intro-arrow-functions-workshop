@@ -42,8 +42,8 @@ const bar = function(word) {
 >
 > -- <cite>MDN</cite>
 
-- **A arrow function is not just _syntactic sugar_ for js functions**
-- Arrow function are always annoymous functions
+- **An arrow function is not just _syntactic sugar_ for js functions**
+- Arrow functions are always annoymous functions
 
 ## Benifits of Arrow functions
 
@@ -59,8 +59,8 @@ const bar = function(word) {
 
 There are a few cases where you do not want to just use arrow functions without some significant rework.
 
-- Click Handlers
-- Object Methods
+- Click handlers
+- Object methods
 
 ```js
 const game = {
