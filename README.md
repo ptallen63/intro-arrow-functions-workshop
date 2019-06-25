@@ -13,7 +13,7 @@ Red Ventures Micro Workshop
 
 ## Safe Harbor
 
-While arrow functions have major support in most modern browsers, some older browser do not support the feature. Therefore it is up to you to make sure the browsers you support are addressed. You can consult [can I use](https://caniuse.com/#feat=arrow-functions) for a full list of supported browsers for this feature.
+While arrow functions have major support in most modern browsers, some older browser do not support the feature. Therefore, it is up to you to make sure the browsers you support are addressed. You can consult [can I use](https://caniuse.com/#feat=arrow-functions) for a full list of supported browsers for this feature.
 
 ![can i use arrow functions](images/caniusearrowfunctions.png)
 
@@ -21,7 +21,7 @@ While arrow functions have major support in most modern browsers, some older bro
 ![Old Tech](https://media.giphy.com/media/bZQvimlS7kuGc/giphy.gif)
 ```js
 
-// Function Decleration
+// Function Declaration
 foo(){
   alert("Hello, World")
 }
@@ -43,7 +43,7 @@ const bar = function(word) {
 > -- <cite>MDN</cite>
 
 - **An arrow function is not just _syntactic sugar_ for js functions**
-- Arrow functions are always annoymous functions
+- Arrow functions are always anonymous functions
 
 ## Benifits of Arrow Functions
 
@@ -57,7 +57,7 @@ const bar = function(word) {
 
 ![When not to use](https://media.giphy.com/media/ka58AlHmghpQ4uUmTl/giphy.gif)
 
-There are a few cases where you do not want to just use arrow functions without some significant rework.
+There are a few cases where you do not want to use arrow functions without some significant rework.
 
 - Click handlers
 - Object methods
@@ -86,7 +86,7 @@ const game = {
 }
 ```
 
-- When you need `arguments` keyword`
+- When you need the `arguments` keyword
 
 ## Resources
 
