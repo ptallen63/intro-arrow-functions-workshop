@@ -21,7 +21,7 @@ While arrow funcitons have major support in most modern browsers, some olders br
 ![Old Tech](https://media.giphy.com/media/bZQvimlS7kuGc/giphy.gif)
 ```js
 
-// Funtion Decleration
+// Function Decleration
 foo(){
   alert("Hello, World")
 }
