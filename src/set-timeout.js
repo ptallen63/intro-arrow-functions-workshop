@@ -7,7 +7,7 @@ class Dog {
   }
   barkLater() {
     setTimeout(function() {
-      console.log(`woff woof, I am ${that.name}`)
+      console.log(`woff woof, I am ${this.name}`)
     }, 1000)
   }
 }
